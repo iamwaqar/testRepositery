@@ -4,6 +4,7 @@ class Person{
 	
 	void info() {
 		System.out.println("Name of Person is " + name);
+		System.out.println("Age is " + age);
 	}
 }
 public class App {
@@ -12,6 +13,7 @@ public class App {
 
 		Person p1 = new Person();
 		p1.name = "Syed";
+		p1.age = 20;
 		p1.info();
 	}
 
